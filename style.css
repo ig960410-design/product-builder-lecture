@@ -114,6 +114,17 @@ body {
     transform: scale(0.98);
 }
 
+.comments-section {
+    width: 100%;
+    max-width: 800px;
+    background: var(--card-background);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+
 .theme-toggle-container {
     position: absolute;
     top: 20px;

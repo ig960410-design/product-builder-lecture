@@ -22,6 +22,7 @@ This project is a web-based Lotto Number Generator. It provides users with a fun
 *   **Interactive Button:** A button to initiate the number generation process.
 *   **Number Display:** The generated numbers are displayed in a clear and visually appealing manner, using individual "lotto ball" components.
 *   **Partnership Inquiry Form:** A simple form powered by Formspree allowing users to send partnership inquiries directly to the project owners.
+*   **Comments System:** Integrated Disqus comment thread to foster user engagement and feedback.
 *   **Web Components:** A custom `<lotto-ball>` element is used to display each number, encapsulating its structure, style, and behavior.
 
 ## **Current Plan**
@@ -30,10 +31,11 @@ This project is a web-based Lotto Number Generator. It provides users with a fun
     *   Update the title to "Lotto Number Generator".
     *   Create the main structure for the lottery machine, including a display area for the numbers and a "Generate" button.
     *   Add a Partnership Inquiry form section.
+    *   Integrate Disqus comments thread.
 2.  **`style.css`:**
     *   Implement a modern and visually appealing design for the page.
     *   Style the lottery machine, the number display area, the lotto balls, and the button.
-    *   Add styles for the partnership inquiry form, ensuring consistency with the overall theme.
+    *   Add styles for the partnership inquiry form and the comments section.
     *   Use CSS variables for a consistent color scheme and responsive design techniques.
 3.  **`main.js`:**
     *   Create a `<lotto-ball>` web component to display each generated number.
